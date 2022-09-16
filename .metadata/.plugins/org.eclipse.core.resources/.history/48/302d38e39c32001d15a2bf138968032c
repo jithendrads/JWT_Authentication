@@ -1,0 +1,24 @@
+package com.example.springbootsecurity.config;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class JwtUtil {
+	
+	private String secret;
+	private int expirationDateInMs;
+	
+	@Value("${jwt.secret}")
+	public void setSecret(String secret) {
+		this.secret = secret;
+	}
+	
+	@Value("${jwt.expirationDateInMs")
+	public void setExpirationDateInMs(int expirationDateInMs) {
+		this.expirationDateInMs = expirationDateInMs;
+	}
+	
+	
+	
+	
+
+}

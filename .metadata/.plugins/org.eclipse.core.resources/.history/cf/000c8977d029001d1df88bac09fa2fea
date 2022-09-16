@@ -1,0 +1,5 @@
+package com.jithendra.fullstackbackend.exception;
+
+public class UserNotFoundException {
+
+}

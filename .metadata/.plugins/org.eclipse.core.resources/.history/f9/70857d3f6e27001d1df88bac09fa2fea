@@ -1,0 +1,13 @@
+package com.jithendra.fullstackbackend.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class User {
+	
+	private Long id;
+	private String username;
+	private String name;
+	private String email;
+
+}

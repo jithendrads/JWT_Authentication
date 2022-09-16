@@ -1,0 +1,5 @@
+package com.jithendra.fullstackbackend.repository;
+
+public interface UserRepository {
+
+}

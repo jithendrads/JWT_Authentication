@@ -1,0 +1,10 @@
+package com.jithendra.fullstackbackend.exception;
+
+public class UserNotFoundException extends RuntimeException {
+	
+	public UserNotFoundException(long id)
+	{
+		super("Could not the find the user with id ":id);
+	}
+
+}

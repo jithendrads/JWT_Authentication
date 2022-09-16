@@ -1,0 +1,5 @@
+package com.example.springbootsecurity.repository;
+
+public class UserRepository {
+
+}

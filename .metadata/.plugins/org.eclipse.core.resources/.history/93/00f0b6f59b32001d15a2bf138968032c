@@ -1,0 +1,5 @@
+package com.example.springbootsecurity.config;
+
+public class JwtUtil {
+
+}

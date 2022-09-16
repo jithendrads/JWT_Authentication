@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;spring-boot-jwt&apos;" deleteContents="false" description="Delete resource &apos;spring-boot-jwt&apos;" element1="/spring-boot-jwt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1661171492420"/>
+</session>

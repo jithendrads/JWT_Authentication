@@ -1,0 +1,21 @@
+package com.example.springbootsecurity.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ResourceController {
+	
+	@RequestMapping({"/helloUser"})
+	public String helloUser()
+	{
+		return "HelloUser";
+	}
+	
+	@RequestMapping({"/helloAdmin"})
+	public String helloAdmin()
+	{
+		return "HelloAdmin";
+	}
+
+}

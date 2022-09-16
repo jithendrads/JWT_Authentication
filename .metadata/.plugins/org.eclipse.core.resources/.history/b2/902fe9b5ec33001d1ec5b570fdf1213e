@@ -1,0 +1,7 @@
+jwt.secret= javainuse
+jwt.expirationDateInMs= 18000000
+spring.datasource.url=jdbc:mysql://localhost:3306/bootjwt?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=MySql@2020
+spring.jpa.hibernate.ddl-auto=update
+

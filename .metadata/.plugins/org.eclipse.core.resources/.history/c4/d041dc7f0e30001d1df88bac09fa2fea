@@ -1,0 +1,5 @@
+package com.example.springbootsecurity.controller;
+
+public class ResourceController {
+
+}

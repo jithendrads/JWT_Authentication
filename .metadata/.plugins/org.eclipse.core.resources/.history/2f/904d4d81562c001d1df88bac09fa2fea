@@ -1,0 +1,5 @@
+#configurations
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url= jdbc:mysql://localhost:3306/fullstack
+spring.datasource.username=root
+spring.datasource.password=MySql@2020

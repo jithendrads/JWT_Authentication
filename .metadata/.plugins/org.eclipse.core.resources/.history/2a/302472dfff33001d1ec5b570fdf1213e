@@ -1,0 +1,13 @@
+package com.example.springbootsecurity.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.springbootsecurity.model.DAOUser;
+
+@Repository
+public interface UserRepository extends JpaRepository<DAOUser,Long>
+{
+	DAOUser findbyUsername(String username); 
+ 
+}
